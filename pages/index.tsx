@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import nextImage from '/public/next.svg';
-import Chatbot from '../components/Chatbot';
 
 export default function Home() {
   return (
@@ -40,7 +39,6 @@ export default function Home() {
       </div>
     </div>
   </div>
-  <Chatbot />
 </section>
 </>
   )
